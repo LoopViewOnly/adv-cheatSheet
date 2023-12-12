@@ -15,13 +15,32 @@ arr[2] = 100;
 arr[3] = 55;
 arr[4] = 76;
 ```
-
+###### arr.Length = عملية ترجع حجم المصفوفة
+```cs
+ for(int i=0 ; i<arr1.Length ; i++) //print all array values on seperate lines
+  {
+      Console.WriteLine(arr1[i]);
+  } 
+```
 
 ### functions - عمليات
-###### 
 ```cs
-public void sum(int g1 , int g2 , int g3)
+static void sayHi(string name) //void(فراغ) من نوع sayHi عملية باسم 
 {
-  return g1+g2+g3;
+  Console.Write("Welcome "+name);
+}
+```
+
+```cs
+static int sum(int g1 , int g2)//int من نوع sum عملية باسم 
+{
+  return g1+g2;
+}
+```
+
+```cs
+static double avg(int g1 , int g2 , int g3)//double من نوع avg عملية باسم 
+{
+  return (g1+g2+g3)/3;
 }
 ```
