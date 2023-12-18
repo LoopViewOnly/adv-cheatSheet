@@ -48,7 +48,7 @@ Console.WriteLine(x/y);   // --> قسمة
 ```cs
 string name = Console.ReadLine();               // استقبال متغير من نوع نص
 int age = int.Parse(Console.ReadLine());        // استقبال متغير من نوع عدد صحيح
-int average = double.Parse(Console.ReadLine()); // استقبال متغير من نوع عدد كسري
+double average = double.Parse(Console.ReadLine()); // استقبال متغير من نوع عدد كسري
 ```
 ---
 ### if
@@ -72,7 +72,7 @@ else
 ```
 
 ### Modulo % (باقي القسمة)
-###### x%y =  y على x كم يتبقى من عملية قسمة 
+###### 
 ```cs
 Console.Write(5%2); // 1 
 Console.Write(9%5); // 4
@@ -97,3 +97,4 @@ while(n<=10) // برنامج يطبع الاعداد من 0-10
     n++;
 }
 ```
+
