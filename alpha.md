@@ -71,6 +71,31 @@
 
 ```
 ------------------------------------------------
+### <table> Table  جدول
+tr - Table Row    اضافة سطر على الجدول
+td - Table Data اضافة معلومة على الجدول
+```html
+<table>
+  <tr>
+    <td>Company</td>
+    <td>Contact</td>
+    <td>Country</td>
+  </tr>
+
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+```
+------------------------------------------------
 ### ```<div>``` Divide
 ```html
 <div id="LoopDiv">
