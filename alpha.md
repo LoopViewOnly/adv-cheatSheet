@@ -53,6 +53,7 @@
     <li>Eggs</li>        · Eggs
 </ul>  
 ```
+
 ###### ```<ol>```  قائمة مرتبه
 ```html
 <ol> 
@@ -72,4 +73,22 @@
     <img src="رابط الصورة"/> 
 </div>
 
+```
+
+#### CSS
+1. Create new file "style.css"
+2. Add ```<link>``` inside the ```<head>```
+ ```<link rel="stylesheet" href="style.css">```
+3. Add your styling
+```css
+body 
+{
+  background-color: blue;
+}
+
+h1
+{
+    color: red;
+    font-size: 20px;
+}
 ```
